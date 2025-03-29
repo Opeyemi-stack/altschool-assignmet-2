@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altschool | About-me</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Who am I - A Frontend Developer?</h1>
+      <section>
+        <h2>My Visual Story</h2>
+        <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="./assests/images/img1.jpg"
+          />
+          <source
+            media="(min-width: 375px) and (max-width: 720px)"
+            srcset="./assests/images/img2.jpg"
+          />
+          <source
+            media="(min-width: 720px)"
+            srcset="./assests/images/img3.jpg"
+          />
+          <img
+            src="./assests/images/img1.jpg"
+            alt=""
+            width="100%"
+            height="auto"
+          />
+        </picture>
+      </section>
+      <section>
+        <h2>I always listen to this morning affirmation</h2>
+        <audio controls>
+          <source
+            src="./assests/audio/positive_morning_affirmations.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio tag.
+        </audio>
+      </section>
+      <section>
+        <h2>Watch my Tik-Tok Video</h2>
+        <video controls>
+          <source src="assests/video/tick-tok-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+    </main>
+  </body>
+</html>
